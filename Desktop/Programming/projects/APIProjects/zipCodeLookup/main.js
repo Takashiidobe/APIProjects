@@ -21,7 +21,7 @@ get.send();
 
 
 
-//for country + state + city to zip code
+//for country + state + city to zip codes
 var request = new XMLHttpRequest();
 request.open('GET', `http://api.zippopotam.us/${country}/${state}/${city}`, true);
 
