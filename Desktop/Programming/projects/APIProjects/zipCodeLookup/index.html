@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Zip Code Lookup</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+          <form id="search" action="" method="GET" target="">
+            <label for="type">Anime/Manga</label>
+            <select name="type" id="animeOrManga">
+              <option value="anime">Anime</option>
+              <option value="manga">Manga</option>
+            </select>
+            <br>
+            <label for="pageNumber">Page Number</label>
+            <select name="pageNumber" id="pageNumber">
+              <option value="1" id="1">1</option>
+              <option value="2" id="2">2</option>
+              <option value="3" id="3">3</option>
+              <option value="4" id="4">4</option>
+              <option value="5" id="5">5</option>
+            </select>
+            <br>
+            <label for="query">Query</label>
+            <input type="text" id="query">
+            <br>
+            <input type="submit" form="search" value="Submit">
+          </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
